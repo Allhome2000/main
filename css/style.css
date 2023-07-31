@@ -1,5 +1,6 @@
 *{
     list-style: none;
+    transition: all 1s ease;
 }
 
 
@@ -52,14 +53,15 @@ li{
 
 
 li>a{
-   color: rgba(148, 148, 148, 0.726); 
+   color: rgba(148, 148, 148, 0.726);
+   font-weight: bold; 
    text-decoration: none;
 }
 
 
 .btn-shine:hover {
     color: rgb(252, 5, 5);
-    font-weight: bold;
+    
 }
 
 .welcome{
