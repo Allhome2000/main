@@ -57,9 +57,34 @@ li>a{
 }
 
 
-li>a:hover{
+.btn-shine:hover {
     color: rgb(252, 5, 5);
     font-weight: bold;
+}
+
+.welcome{
+    border: 122px ridge red;
+    filter: brightness(50%);
+}
+
+
+
+#welcome{
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.welcome:hover{
+    /* background: rgba(63, 63, 63, 0.61); */
+
+    filter: brightness(100%);
+    transition: all  ease-out 5s;
+    transition-timing-function: ease-in-out;
+
+
 }
 
 
@@ -75,9 +100,7 @@ li>a:hover{
 
 
 
-
-
-
+/* 
 body{
   background: black;
   font-family: 'Poppins', sans-serif;
@@ -129,4 +152,4 @@ body{
 
 
 
-
+ */
