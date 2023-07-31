@@ -1,13 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.test.ir</title>
+<title>Animated Digital Clock</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hour {
+  font-size: 60px;
+  color: white;
+}
+
+.minute {
+  font-size: 40px;
+  color: white;
+}
+
+.second {
+  font-size: 20px;
+  color: white;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
+</style>
 </head>
 <body>
-
-    <h1>  hello </h1>
-    
+<div class="clock">
+  <div class="hour"></div>
+  <p color="white"> : </p>
+  <div class="minute"></div>
+  <p color="white"> : </p>
+  <div class="second"></div>
+</div>
+<script>
+function updateClock() {
+  var d = new Date();
+  var hours = d.getHours();
+  var minutes = d.getMinutes();
+  var seconds = d.getSeconds();
+  document.querySelector(".hour").innerHTML = hours;
+  document.querySelector(".minute").innerHTML = minutes;
+  document.querySelector(".second").innerHTML = seconds;
+}
+setInterval(updateClock, 1000);
+</script>
 </body>
 </html>
+  
+
+
+
+
+<div id="menu">
+    <button class="menu-button">Menu</button>
+    <ul class="menu-items">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  
+  <script>
+    // This code will make the menu button open and close the menu
+    var menuButton = document.querySelector(".menu-button");
+    var menuItems = document.querySelector(".menu-items");
+  
+    menuButton.addEventListener("click", function() {
+      menuItems.classList.toggle("open");
+    });
+  </script>
+  
+
+
+
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+      
+      :root{
+        --test : @import url('fonts/NotoNastaliqUrdu-Bold.ttf');
+        --test2:
+        @import url('fonts/NotoNastaliqUrdu-Medium.ttf');
+
+
+
+      }
+      
+h1{
+  font-family: var(--test2);
+}
+
+    </style>
+  </head>
+  <body>
+    
+    <h1>سید مهدی حسینی والیجردی</h1>
+  </body>
+  </html>
