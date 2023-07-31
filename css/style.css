@@ -1,0 +1,132 @@
+*{
+    list-style: none;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+
+div.layout-1{
+    
+text-align: center;
+
+
+
+}
+
+div.logo{
+    display: inline-block;
+}
+
+
+div.menu{
+    background-color: rgb(13, 13, 14);
+}
+
+
+nav.menu{
+
+}
+
+
+ul.menu-ul{
+ text-align: center;
+ direction: rtl; 
+
+ 
+    
+}
+
+
+
+li{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 3%;
+    line-height: 3;
+}
+
+
+li>a{
+   color: rgba(148, 148, 148, 0.726); 
+   text-decoration: none;
+}
+
+
+li>a:hover{
+    color: rgb(252, 5, 5);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background: black;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn-shine{
+
+    
+    
+
+  color: #ffffff;
+  background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 9s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+  
+  @keyframes shine{
+
+      0%{
+          background-position: 0;
+        }
+        60%{
+            
+            background-position: 180px;
+        }
+  100%{
+      background-position: 180px;
+
+  }
+
+
+}
+    
+    
+    
+    
+    
+    
+
+
+
+
+
