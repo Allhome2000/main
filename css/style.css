@@ -1,106 +1,175 @@
-*{
-    list-style: none;
-    transition: all 1s ease;
+* {
+  list-style: none;
+  transition: all 1s ease;
+}
+
+body {
+  background-color: black;
+}
+
+div.layout-1 {
+  text-align: center;
+}
+
+div.logo {
+  display: inline-block;
+}
+
+div.menu {
+  background-color: rgb(13, 13, 14);
+}
+
+ul.menu-ul {
+  text-align: center;
+  direction: rtl;
+}
+
+li {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-left: 3%;
+  line-height: 3;
+}
+
+li > a {
+  color: rgba(148, 148, 148, 0.726);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.welcome {
+  border: 100px ridge red;
+  filter: brightness(50%);
+}
+
+#welcome {
+  color: white;
+  text-align: center;
 }
 
 
-body{
-    background-color: black;
+.foter {
+  background: rgb(44, 44, 44);
+  border-radius: 9%;
+}
+.mojavez {
+  display: inline-flex;
+}
+
+.nemad {
+  background-color: white;
+  border: 4px solid red;
+  border-radius: 30%;
+  width: 100px;
+  opacity: 30%;
+  margin-left: 10px;
+}
+
+#img-nemad {
+  width: 100px;
 }
 
 
 
-div.layout-1{
-    
-text-align: center;
-
-
-
+.ertebat{
+  display: inline-block;
+  text-align: center;
 }
-
-div.logo{
-    display: inline-block;
-}
-
-
-div.menu{
-    background-color: rgb(13, 13, 14);
-}
-
-
-nav.menu{
+.ertebat div{
+width: 50px;
+background-color: white;
+height: 50px;
+display: inline-block;
+border-radius: 50%;
+opacity: 50%;
 
 }
 
 
-ul.menu-ul{
- text-align: center;
- direction: rtl; 
+i{
+  color: white;
+}
 
- 
-    
+.footer{
+  color: red;
+  width: 100%;
+  background-color: black;
 }
 
 
 
-li{
-    color: white;
-    text-align: center;
-    display: inline-block;
-    margin-left: 3%;
-    line-height: 3;
-}
 
 
-li>a{
-   color: rgba(148, 148, 148, 0.726);
-   font-weight: bold; 
-   text-decoration: none;
+/* --------------------------hovers-------------------------- */
+
+
+.nemad:hover{
+  opacity: 100%;
 }
+
+.welcome:hover {
+  /* background: rgba(63, 63, 63, 0.61); */
+  
+  filter: brightness(100%);
+  transition: all ease-out 5s;
+  transition-timing-function: ease-in-out;
+  
+  cursor: no-drop;
+}
+
 
 
 .btn-shine:hover {
-    color: rgb(252, 5, 5);
-    
+  color: rgb(252, 5, 5);
 }
 
-.welcome{
-    border: 122px ridge red;
-    filter: brightness(50%);
+.ertebat div:hover{
+  opacity: 100%;
 }
 
 
 
-#welcome{
-    color: white;
+
+
+
+/* -------------------Medias------------------- */
+
+
+@media (min-width: 100px) {
+  li {
+    display: block;
     text-align: center;
-    
+    margin-left: 10;
+    line-height: 2;
+  }
+  
+  .welcome {
+    border: 30px ridge red;
+  }
+  
+  #welcome {
+    font-size: large;
+  }
 }
 
-
-
-.welcome:hover{
-    /* background: rgba(63, 63, 63, 0.61); */
-
-    filter: brightness(100%);
-    transition: all  ease-out 5s;
-    transition-timing-function: ease-in-out;
-
-
+@media (min-width:550px){
+  li {
+    display: inline-block;
+    text-align: center;
+   
+  }
+  
+  .welcome {
+    border: 30px ridge red;
+  }
+  
+  #welcome {
+    font-size: x-large;
+  }
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 
 body{
