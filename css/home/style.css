@@ -5,6 +5,7 @@
 
 body {
   background-color: black;
+  
 }
 
 div.layout-1 {
@@ -53,6 +54,7 @@ li > a {
 .foter {
   background: rgb(44, 44, 44);
   border-radius: 9%;
+
 }
 .mojavez {
   display: inline-flex;
@@ -96,6 +98,7 @@ i{
   color: red;
   width: 100%;
   background-color: black;
+  
 }
 
 
@@ -107,6 +110,7 @@ i{
 
 .nemad:hover{
   opacity: 100%;
+  border-radius: 50%;
 }
 
 .welcome:hover {
@@ -134,7 +138,7 @@ i{
 
 
 
-/* -------------------Medias------------------- */
+/* -------------------@Medias------------------- */
 
 
 @media (min-width: 100px) {
