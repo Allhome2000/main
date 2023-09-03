@@ -3,10 +3,10 @@
   transition: all 1s ease;
 }
 
-body {
+/* body {
   background-color: black;
   
-}
+} */
 
 div.layout-1 {
   text-align: center;
@@ -50,11 +50,9 @@ li > a {
   text-align: center;
 }
 
-
 .foter {
   background: rgb(44, 44, 44);
   border-radius: 9%;
-
 }
 .mojavez {
   display: inline-flex;
@@ -73,73 +71,55 @@ li > a {
   width: 100px;
 }
 
-
-
-.ertebat{
+.ertebat {
   display: inline-block;
   text-align: center;
 }
-.ertebat div{
-width: 50px;
-background-color: white;
-height: 50px;
-display: inline-block;
-border-radius: 50%;
-opacity: 50%;
-
+.ertebat div {
+  width: 50px;
+  background-color: white;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 50%;
 }
 
-
-i{
+i {
   color: white;
 }
 
-.footer{
+.footer {
   color: red;
   width: 100%;
   background-color: black;
-  
 }
-
-
-
-
 
 /* --------------------------hovers-------------------------- */
 
-
-.nemad:hover{
+.nemad:hover {
   opacity: 100%;
   border-radius: 50%;
 }
 
 .welcome:hover {
   /* background: rgba(63, 63, 63, 0.61); */
-  
+
   filter: brightness(100%);
   transition: all ease-out 5s;
   transition-timing-function: ease-in-out;
-  
+
   cursor: no-drop;
 }
-
-
 
 .btn-shine:hover {
   color: rgb(252, 5, 5);
 }
 
-.ertebat div:hover{
+.ertebat div:hover {
   opacity: 100%;
 }
 
-
-
-
-
-
 /* -------------------@Medias------------------- */
-
 
 @media (min-width: 100px) {
   li {
@@ -148,31 +128,29 @@ i{
     margin-left: 10;
     line-height: 2;
   }
-  
+
   .welcome {
     border: 30px ridge red;
   }
-  
+
   #welcome {
     font-size: large;
   }
 }
 
-@media (min-width:550px){
+@media (min-width: 550px) {
   li {
     display: inline-block;
     text-align: center;
-   
   }
-  
+
   .welcome {
     border: 30px ridge red;
   }
-  
+
   #welcome {
     font-size: x-large;
   }
-  
 }
 
 /* 
