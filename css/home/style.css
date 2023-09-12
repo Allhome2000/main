@@ -95,6 +95,14 @@ i {
   background-color: black;
 }
 
+
+.ertebat div{
+  padding: 3px;
+}
+.ertebat img{
+  border-radius: 50%;
+}
+
 /* --------------------------hovers-------------------------- */
 
 .nemad:hover {
@@ -118,6 +126,8 @@ i {
 
 .ertebat div:hover {
   opacity: 100%;
+  transform: rotateZ(360deg);
+  transform: skew(100px);
 }
 
 /* -------------------@Medias------------------- */
