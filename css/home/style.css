@@ -2,6 +2,12 @@
   list-style: none;
   transition: all 1s ease;
 }
+
+
+:root {
+  --h50: 50px;
+}
+
 /* 
 body {
   background-color: black;
@@ -34,7 +40,7 @@ li {
   line-height: 3;
 }
 
-li > a {
+li>a {
   color: rgba(148, 148, 148, 0.726);
   font-weight: bold;
   text-decoration: none;
@@ -55,6 +61,7 @@ li > a {
   background: rgb(44, 44, 44);
   border-radius: 9%;
 }
+
 .mojavez {
   display: inline-flex;
 }
@@ -76,6 +83,7 @@ li > a {
   display: inline-block;
   text-align: center;
 }
+
 .ertebat div {
   width: 50px;
   background-color: white;
@@ -96,11 +104,17 @@ i {
 }
 
 
-.ertebat div{
+.ertebat div {
   padding: 3px;
 }
-.ertebat img{
+
+.ertebat img {
   border-radius: 50%;
+}
+
+
+#space {
+  height: var(--h50);
 }
 
 /* --------------------------hovers-------------------------- */

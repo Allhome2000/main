@@ -1,202 +1,128 @@
 * {
-    list-style: none;
-    transition: all 1s ease;
-    transition: all 2S;
-  }
+  list-style: none;
+  transition: all 1s ease;
+
+}
 
 
 
 
-  :root{
-    --space50:50px;
-  }
-  
-  body {
-    background-color: black;
-    width:100% ;
-    height: 100%;
+:root {
+  --h50px: 50px;
+}
 
-  }
-  
-  div.layout-1 {
-    text-align: center;
-  }
-  
-  div.logo {
-    display: inline-block;
-  }
-  
-  div.menu {
-    background-color: rgb(13, 13, 14);
-  }
-  
-  ul.menu-ul {
-    text-align: center;
-    direction: rtl;
-  }
-  
-  li {
-    color: white;
-    text-align: center;
-    display: inline-block;
-    margin-left: 3%;
-    line-height: 3;
-  }
-  
-  li > a {
-    color: rgba(148, 148, 148, 0.726);
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-  }
-
-
-.list{
+body {
+  background-color: black;
   width: 100%;
-    height: 400px;
-background: grey;
-display: flex;
-overflow-x: scroll;
-overflow-y:hidden;
-margin: 2px;
-padding: 3.5;
-border-radius: .5em;
-scroll-snap-type: x mandatory;
+  height: 100%;
+
 }
 
-
-.a-item{
-
-  width: 200vw;
-  display: flex;
-  background-color: rgb(81, 81, 81);
-  flex-direction: column;
-  padding: 5rem;
-  margin: .5em;
-  border-radius: 7%;
+div.layout-1 {
   text-align: center;
-  scroll-snap-align: start;
-  opacity: 50%;
+}
+
+div.logo {
+  display: inline-block;
+}
+
+div.menu {
+  background-color: rgb(13, 13, 14);
+}
+
+ul.menu-ul {
+  text-align: center;
+  direction: rtl;
+}
+
+li {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-left: 3%;
+  line-height: 3;
+}
+
+li>a {
+  color: rgba(148, 148, 148, 0.726);
+  font-weight: bold;
   text-decoration: none;
-  scroll-margin-inline: .5em;
-
-}
-
-
-
-
-.itemimage{
-    width: 100px;
-   
-border-radius: 10%;
-    object-fit: cover;
-    border: 3px groove black;
-    background: black;
-    text-align: center;
-}
-.itemtitle{
-  width: 9rem;
-  padding: 0rem 0rem 0rem 0rem;
-    margin: .5em;
-    font-size: x-large;
-    color: white;
-  }
-  .layout-1 {
-position: relative;
-  }
-
- 
-  
-  .publicity-left{
-  position: absolute;
-  background: rgba(255, 0, 0, 0.123);
-  color: white;
-
-  height: 30rem;
-  width: 20%;
   text-align: center;
-  
-  
 }
 
 
-/* #text-video{
-  color: white;
-  background-color: blueviolet;
-  width: 200px;
-  height: 100px;
+
+
+
+#space {
+  height: 50px;
+}
+
+
+
+
+
+
+
+/* ---------------------------------Footer-------------------------------------- */
+.foter {
+  background: rgb(44, 44, 44);
+  border-radius: 9%;
+}
+
+.mojavez {
+  display: inline-flex;
+}
+
+.nemad {
+  background-color: white;
+  border: 4px groove red;
+  border-radius: 30%;
+  width: 100px;
+  opacity: 30%;
+  margin-left: 10px;
+}
+
+#img-nemad {
+  width: 100px;
+}
+
+
+
+.ertebat {
+  display: inline-block;
   text-align: center;
-  position: absolute;
-  font-size: 100px;
-} */
+}
 
-
-
-
-
-
-
-
-  
-  
-  
-  /* ---------------------------------Footer-------------------------------------- */
-  .foter {
-    background: rgb(44, 44, 44);
-    border-radius: 9%;
-  }
-  .mojavez {
-    display: inline-flex;
-  }
-  
-  .nemad {
-    background-color: white;
-    border: 4px groove red;
-    border-radius: 30%;
-    width: 100px;
-    opacity: 30%;
-    margin-left: 10px;
-  }
-  
-  #img-nemad {
-    width: 100px;
-  }
-  
-  
-  
-  .ertebat{
-    display: inline-block;
-    text-align: center;
-  }
-  .ertebat div{
+.ertebat div {
   width: 50px;
   background-color: white;
   height: 50px;
   display: inline-block;
   border-radius: 50%;
   opacity: 10%;
-  
-  }
-  
-  
-  i{
-    color: white;
-  }
+
+}
+
+
+i {
+  color: white;
+}
 
 
 
- div#space{
-height: var(--space50);
-  }
-  
-  .footer{
-    color: red;
-    width: 100%;
-    background-color: black;
-  }
+div#space {
+  height: var(--h50px);
+}
+
+.footer {
+  color: red;
+  width: 100%;
+  background-color: black;
+}
 
 
-#video-ghab{
+#video-ghab {
   border-radius: 10%;
   /* border: 3px solid red; */
   /* box-shadow: 10px 10px 50px red; */
@@ -204,7 +130,7 @@ height: var(--space50);
   animation-duration: 1S;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  
+
 
 }
 
@@ -218,17 +144,59 @@ height: var(--space50);
 
 
 
-@keyframes videoshadow{
-  from{
-    box-shadow:5px 5px 50px red 
-    ,10px 10px 100px blue;
+@keyframes videoshadow {
+  from {
+    box-shadow: 5px 5px 50px red, 10px 10px 100px blue;
   }
-to{
 
-  box-shadow:20px 0px 0px 0px 150px red 
-  ,10px 10px 200px blue;
+  to {
+
+    box-shadow: 20px 0px 0px 0px 150px red, 10px 10px 200px blue;
+  }
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------hovers-------------------------- */
+
+
+.nemad:hover {
+  opacity: 100%;
+  border-radius: 50%;
+}
+
+
+
+
+
+.btn-shine:hover {
+  color: rgb(252, 5, 5);
+}
+
+.ertebat div:hover {
+  opacity: 100%;
+}
+
+
+
+.ertebat div:hover {
+  opacity: 100%;
+  transform: rotateZ(360deg);
+  transform: skew(100px);
 }
 
 
@@ -237,103 +205,43 @@ to{
 
 
 
+.publicity-left:hover {
 
-
-
-
-  
-  
-  
-  
-  
-  /* --------------------------hovers-------------------------- */
-  
-  
-  .nemad:hover{
-    opacity: 100%;
-    border-radius: 50%;
-  }
-  
-
-  
-  
-  
-  .btn-shine:hover {
-    color: rgb(252, 5, 5);
-  }
-  
-  .ertebat div:hover{
-    opacity: 100%;
-  }
-  
-  
-  
-  .a-item:hover{
-    opacity: 100%;
-    transform: rotate(5deg);
-  border-right: 30px groove grey;
-  border-bottom: 30px groove white;
-  
-}
-.a-item:hover .itemimage {
-  transform: rotate(2deg);
+  opacity: 0;
+  visibility: hidden;
 }
 
-.a-item:hover .itemtitle{
-  transform: rotate(3deg);
-  background-color: red;
+/* -------------------@Medias------------------- */
+
+
+@media (min-width: 100px) {
+  li {
+    display: block;
+    text-align: center;
+    margin-left: 10;
+    line-height: 2;
   }
 
-  .ertebat div:hover {
-    opacity: 100%;
-    transform: rotateZ(360deg);
-    transform: skew(100px);
+
+  #video-ghab {
+    width: 400px;
+    height: 200px;
+  }
+
+}
+
+
+@media (min-width:550px) {
+  li {
+    display: inline-block;
+    text-align: center;
+
+  }
+
+  #video-ghab {
+    width: 500px;
+    height: 250px;
   }
 
 
-
-
-
-
-
-  .publicity-left:hover{
-   
-    opacity: 0;
-    visibility: hidden;
-  }
-  
-  /* -------------------@Medias------------------- */
-  
-  
-  @media (min-width: 100px) {
-    li {
-      display: block;
-      text-align: center;
-      margin-left: 10;
-      line-height: 2;
-    }
-
-
-    #video-ghab{
-width: 400px;
-height: 200px;
-    }
-    
-  }
-
-  
-  @media (min-width:550px){
-    li {
-      display: inline-block;
-      text-align: center;
-     
-    }
-
-    #video-ghab{
-      width: 500px;
-      height: 250px;
-    }
-  
-
-  }
-  
+}

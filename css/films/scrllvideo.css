@@ -1,0 +1,119 @@
+.list {
+  width: 100%;
+  height: 500px;
+  background: grey;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 2px;
+  padding: 3.5;
+  border-radius: .5em;
+  scroll-snap-type: x mandatory;
+}
+
+
+.a-item {
+
+  width: 200px;
+  height: 250px;
+  display: flex;
+  background-color: rgb(81, 81, 81);
+  flex-direction: column;
+  padding: 6rem;
+  margin: .5em;
+  border-radius: 7%;
+  text-align: center;
+  scroll-snap-align: start;
+  opacity: 50%;
+  text-decoration: none;
+  scroll-margin-inline: .5em;
+
+}
+
+
+
+
+.itemimage {
+  width: 100px;
+
+  border-radius: 10%;
+  object-fit: cover;
+  border: 3px groove black;
+  background: black;
+  text-align: center;
+}
+
+.itemtitle {
+  width: 9rem;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: .5em;
+  font-size: x-large;
+  color: white;
+}
+
+.type-video {
+  color: white;
+  font-size: x-large;
+}
+
+.type-file{
+  color: white;
+  font-size: x-large;
+}
+
+
+.price {
+  color: white;
+  font-size: x-large;
+}
+
+.type-book{
+  color: white;
+  font-size: x-large;
+}
+
+.mood{
+  color: white;
+}
+
+
+
+
+
+/* ------------------------ hovers ------------------------------------ */
+
+
+
+.a-item:hover {
+  opacity: 100%;
+  transform: rotate(5deg);
+  border-right: 30px groove grey;
+  border-bottom: 30px groove white;
+
+}
+
+
+.a-item:hover .itemtitle {
+  /* transform: rotate(3deg); */
+  background-color: red;
+}
+
+.a-item:hover .type-file{
+  color: yellow;
+  font-weight: bold;
+}
+
+.a-item:hover .type-book{
+  color: aqua;
+  font-weight: bold;
+}
+.a-item:hover .type-video {
+  color: rgb(203, 147, 255);
+  font-weight: bold;
+}
+
+
+.a-item:hover .price p {
+  color: rgb(3, 255, 137);
+  font-weight: bold;
+}  
