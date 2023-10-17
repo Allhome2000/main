@@ -1,0 +1,18 @@
+
+
+.layer{
+ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.layer>div{
+    background: rgb(4, 196, 255);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
