@@ -1,0 +1,247 @@
+* {
+    list-style: none;
+    transition: all 1s ease;
+  
+  }
+  
+  
+  
+  
+  :root {
+    --h50px: 50px;
+  }
+  
+  body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  div.layout-1 {
+    text-align: center;
+  }
+  
+  div.logo {
+    display: inline-block;
+  }
+  
+  div.menu {
+    background-color: rgb(13, 13, 14);
+  }
+  
+  ul.menu-ul {
+    text-align: center;
+    direction: rtl;
+  }
+  
+  li {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 3%;
+    line-height: 3;
+  }
+  
+  li>a {
+    color: rgba(148, 148, 148, 0.726);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  #space {
+    height: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* ---------------------------------Footer-------------------------------------- */
+  .foter {
+    background: rgb(44, 44, 44);
+    border-radius: 9%;
+  }
+  
+  .mojavez {
+    display: inline-flex;
+  }
+  
+  .nemad {
+    background-color: white;
+    border: 4px groove red;
+    border-radius: 30%;
+    width: 100px;
+    opacity: 30%;
+    margin-left: 10px;
+  }
+  
+  #img-nemad {
+    width: 100px;
+  }
+  
+  
+  
+  .ertebat {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .ertebat div {
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    opacity: 10%;
+  
+  }
+  
+  
+  i {
+    color: white;
+  }
+  
+  
+  
+  div#space {
+    height: var(--h50px);
+  }
+  
+  .footer {
+    color: red;
+    width: 100%;
+    background-color: black;
+  }
+  
+  
+  #video-ghab {
+    border-radius: 10%;
+    /* border: 3px solid red; */
+    /* box-shadow: 10px 10px 50px red; */
+    animation-name: videoshadow;
+    animation-duration: 1S;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @keyframes videoshadow {
+    from {
+      box-shadow: 5px 5px 50px red, 10px 10px 100px blue;
+    }
+  
+    to {
+  
+      box-shadow: 20px 0px 0px 0px 150px red, 10px 10px 200px blue;
+    }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* --------------------------hovers-------------------------- */
+  
+  
+  .nemad:hover {
+    opacity: 100%;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+  .btn-shine:hover {
+    color: rgb(252, 5, 5);
+  }
+  
+  .ertebat div:hover {
+    opacity: 100%;
+  }
+  
+  
+  
+  .ertebat div:hover {
+    opacity: 100%;
+    transform: rotateZ(360deg);
+    transform: skew(100px);
+  }
+  
+  
+  
+  
+  
+  
+  
+  .publicity-left:hover {
+  
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* -------------------@Medias------------------- */
+  
+  
+  @media (min-width: 100px) {
+    li {
+      display: block;
+      text-align: center;
+      margin-left: 10;
+      line-height: 2;
+    }
+  
+  
+    #video-ghab {
+      width: 400px;
+      height: 200px;
+    }
+  
+  }
+  
+  
+  @media (min-width:550px) {
+    li {
+      display: inline-block;
+      text-align: center;
+  
+    }
+  
+    #video-ghab {
+      width: 500px;
+      height: 250px;
+    }
+  
+  
+  }

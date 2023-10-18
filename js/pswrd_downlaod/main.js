@@ -17,7 +17,7 @@ $(document).ready(function () {
                   // اینجا می توانید کد بررسی اعتبار نام کاربری و رمز عبور را قرار دهید
                   // اگر اطلاعات صحیح باشند، می توانید کاربر را به صفحه مورد نظر هدایت کنید
                   // مثال:
-                  if (username === "mahdi" && password === "1384") {
+                  if (username === "Alireza" && password === "Ali14313") {
                       //   window.location.href = "index-2.html";
                       // $(".link-download").html("<a  href='download/preview.jpg' downloads='download/preview.jpg'> download file </a>")
   

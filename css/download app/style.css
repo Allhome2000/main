@@ -9,10 +9,11 @@
 
 
 .layer>div{
-    background: rgb(4, 196, 255);
+    background:linear-gradient( black, red,black);
     width: 300px;
     height: 200px;
     border-radius: 10px;
+    box-shadow:  ;
 }
 
 
