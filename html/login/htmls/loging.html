@@ -9,8 +9,9 @@
   <title>www.I❤️Programmer.ir</title>
   <link rel="shortcut icon" href="../icon/icon-web.ico" type="image/x-icon" />
 
+  <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style_login.css" />
-
+  
 
   <style></style>
 </head>
@@ -78,17 +79,40 @@
     </div>
 
 <div class="layer_login">
-<form action="../php/users_controler/controlers.php" method="dialog">
-<input type="email" name="email" id="email">
-<input type="password" name="password" id="password">
-<input type="file" list="">
+ 
 
+">
+<form action="../php/users_controler/controlers.php" method="post">
+<input type="text" name="username" required id="email">
+<input type="password" name="password" required id="password">
+<input type="file" name="image" accept="image/png , image/jpeg" required>
+<button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
 
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <div id="space"></div>
