@@ -1,9 +1,10 @@
-$("copy-button").on("click", function(){
-var copyText = $("text-to--copy");
-copyText.select();
-copyText[0].setSelectonRange(0, 99999);
-document.execCommand("copy");
-$("copy-massage").html("متن کپی شد!")
-
-
+document.getElementById("copy-button").addEventListener("click", function() {
+    var copyText = document.getElementById("text-to-copy");
+    var tempInput = document.createElement("input");
+    tempInput.value = copyText.textContent;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+    document.getElementById("copy-message").innerHTML = "متن کپی شد!";
 });
