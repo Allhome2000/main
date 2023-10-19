@@ -67,20 +67,10 @@
   --bs-body-color: #212529;
   /* Show All Properties (1 more) */
 }
-body {
 
-  margin: 0;
-  font-family: var(--bs-body-font-family);
-  font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
-  line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-color);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
 
-}
+
+
 
 
 /* element.style {} */
@@ -132,15 +122,15 @@ user agent stylesheet center {
 
 body {
   margin: 0;
-  /* font-family: var(--bs-body-font-family); */
-  /* font-size: var(--bs-body-font-size); */
-  /* font-weight: var(--bs-body-font-weight); */
-  /* line-height: var(--bs-body-line-height); */
-  /* color: var(--bs-body-color); */
-  /* text-align: var(--bs-body-text-align); */
-  background-color: var(--bs-body-bg);
-  /* -webkit-text-size-adjust: 100%; */
-  /* -webkit-tap-highlight-color: transparent; */
+   font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  /* background-color: var(--bs-body-bg); */
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -178,7 +168,7 @@ li {
   color: white;
   text-align: center;
   display: inline-block;
-  margin-left: 3%;
+  margin-left: 10px;
   line-height: 3;
 }
 
@@ -384,3 +374,5 @@ div#space {
 
 
 }
+
+

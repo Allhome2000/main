@@ -1,0 +1,27 @@
+body {
+    /* background-color: rgb(255, 230, 3); */
+    background-image: url(../../../media/img/طراحی\ بدون\ عنوان.png);
+
+
+
+
+    /* /* background: url(../../img/logo-site.png); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+    background-origin: border-box;
+    filter: brightness(100%);
+
+}
+
+.layout-1 {
+    background: black;
+}
+
+.menu {
+    background: black;
+    margin-top: -8px;
+}
